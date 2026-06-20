@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — DevNest Tech</title>
+  <meta name="description"
+    content="Get in touch with DevNest Tech. Email devnestlabs16@gmail.com or call +91 7487853898." />
+  <meta name="author" content="DevNest Tech" />
+  <meta property="og:site_name" content="DevNest Tech" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact — DevNest Tech" />
+  <meta property="og:description" content="Reach out to DevNest Tech." />
+  <meta property="og:url" content="/contact" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="/contact" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="page-shell">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="brand">
+          <img src="images/devnest_logo.png" alt="DevNest Tech" />
+
+        </a>
+        <nav class="nav-desktop">
+          <a href="index.html" data-href="/" class="nav-link">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link is-active">Contact</a>
+          <a href="contact.html" class="nav-cta">Get in touch</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg class="icon-lg icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
+          <svg class="icon-lg icon-close" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="nav-mobile">
+        <nav class="nav-mobile__inner">
+          <a href="index.html" data-href="/" class="nav-link">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link is-active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-hero">
+        <div class="contact-hero__copy">
+          <span class="eyebrow">Contact</span>
+          <h1>Let's talk.</h1>
+          <p>Questions, partnerships, or feedback on our apps — we'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards">
+            <a href="mailto:devnestlabs16@gmail.com" class="contact-card">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <div>
+                <p class="contact-card__label">Email</p>
+                <p class="contact-card__value">devnestlabs16@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+917487853898" class="contact-card">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.738 1.6l-.466.355a1 1 0 0 0-.302 1.214 14.97 14.97 0 0 0 6.339 6.39Z" />
+              </svg>
+              <div>
+                <p class="contact-card__label">Phone</p>
+                <p class="contact-card__value">+91 7487853898</p>
+              </div>
+            </a>
+            <div class="contact-card">
+              <svg class="icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div>
+                <p class="contact-card__label">Address</p>
+                <p class="contact-card__value" style="white-space:normal">Bhavnagar, Gujarat, India</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" onsubmit="return handleContactSubmit(event)">
+            <div class="form-stack">
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" required placeholder="Jane Doe" />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="jane@example.com" />
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required rows="5" placeholder="How can we help?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">Send message</button>
+              <p class="form-status" id="form-status" style="display:none">Opening your email client…</p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="site-footer__grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="images/devnest_logo.png" alt="DevNest Tech" />
+            <div class="brand__text">
+              <span class="brand__name">dev<span class="text-gradient-brand">Nest</span> <span class="brand__tag"
+                  style="margin-left:.25rem">Tech</span></span>
+            </div>
+          </a>
+          <p>Building modern and scalable mobile applications with Flutter and Firebase.</p>
+          <p><a href="mailto:devnestlabs16@gmail.com">devnestlabs16@gmail.com</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="apps.html">Apps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="cricrun-counter-privacy.html">CricRun Privacy</a></li>
+            <li><a href="cricrun-counter-terms.html">CricRun Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div class="site-footer__bottom-inner">
+          <span id="footer-year">© 2026 DevNest Tech. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("footer-year").textContent = "© " + new Date().getFullYear() + " DevNest Tech. All rights reserved.";
+  </script>
+</body>
+
+</html>

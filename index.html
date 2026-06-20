@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevNest Tech — Modern Mobile App Development</title>
+  <meta name="description"
+    content="We build modern and scalable mobile applications. Featured app: CricRun Counter — smart cricket scoring." />
+  <meta name="author" content="DevNest Tech" />
+  <meta property="og:site_name" content="DevNest Tech" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DevNest Tech — Modern Mobile App Development" />
+  <meta property="og:description"
+    content="Building modern and scalable mobile applications with Flutter and Firebase." />
+  <meta property="og:url" content="/" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="/" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="page-shell">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="brand">
+          <img src="images/devnest_logo.png" alt="DevNest Tech" />
+
+        </a>
+        <nav class="nav-desktop">
+          <a href="index.html" data-href="/" class="nav-link is-active">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link">Contact</a>
+          <a href="contact.html" class="nav-cta">Get in touch</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg class="icon-lg icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
+          <svg class="icon-lg icon-close" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="nav-mobile">
+        <nav class="nav-mobile__inner">
+          <a href="index.html" data-href="/" class="nav-link is-active">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__inner">
+          <div class="hero__grid">
+            <div>
+              <span class="eyebrow">
+                <svg class="icon-sm" style="display:inline;margin-right:.4rem;vertical-align:-2px" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+                </svg>
+                Mobile-first studio
+              </span>
+              <h1>Building modern and <span class="text-gradient-brand">scalable mobile</span> applications</h1>
+              <p class="lede">DevNest Tech is an independent mobile studio crafting fast, beautiful and reliable apps
+                with Flutter and Firebase — built to scale with your users.</p>
+              <div class="hero__actions">
+                <a href="apps.html" class="btn btn-primary">
+                  View Apps
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+              </div>
+              <div class="hero__checks">
+                <span class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                    <path d="m9 11 3 3L22 4" />
+                  </svg> Flutter &amp; Dart</span>
+                <span class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                    <path d="m9 11 3 3L22 4" />
+                  </svg> Firebase</span>
+                <span class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                    <path d="m9 11 3 3L22 4" />
+                  </svg> Clean UI/UX</span>
+              </div>
+            </div>
+            <div class="hero__art">
+              <div class="hero__art-glow"></div>
+              <div class="hero__art-card">
+                <img src="images/devnest_logo.png" alt="DevNest Tech logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Features ===== -->
+      <section class="section">
+        <div class="section__head">
+          <span class="eyebrow">What we do</span>
+          <h2 class="section__title">Apps built with intent</h2>
+          <p class="section__desc">Every product is engineered around performance, clarity and a delightful experience.
+          </p>
+        </div>
+        <div class="grid-cards cols-3">
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3 class="card__title">Native feel, cross-platform</h3>
+            <p class="card__desc">Flutter-powered apps that feel native on both Android and iOS.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+              </svg>
+            </div>
+            <h3 class="card__title">Fast &amp; responsive</h3>
+            <p class="card__desc">Optimized for smooth 60fps experiences from launch to last screen.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+              </svg>
+            </div>
+            <h3 class="card__title">Secure by default</h3>
+            <p class="card__desc">Firebase backed with sensible defaults for auth, data and reliability.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Featured App ===== -->
+      <section class="section">
+        <div class="section__head">
+          <span class="eyebrow">Featured app</span>
+          <h2 class="section__title">CricRun Counter</h2>
+          <p class="section__desc">A smart, clean cricket scoring app built for everyday matches.</p>
+        </div>
+        <div class="feature-panel">
+          <div>
+            <div class="badge-pill">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                <path d="M4 22h16" />
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+              Available now
+            </div>
+            <h3>Score every ball, effortlessly.</h3>
+            <p class="desc">CricRun Counter helps players and umpires keep accurate scores in real time — no clutter, no
+              learning curve.</p>
+            <ul>
+              <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                  <path d="m9 11 3 3L22 4" />
+                </svg> Easy score tracking</li>
+              <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                  <path d="m9 11 3 3L22 4" />
+                </svg> Real-time updates</li>
+              <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                  <path d="m9 11 3 3L22 4" />
+                </svg> Clean, minimal UI</li>
+            </ul>
+            <a href="cricrun-counter.html" class="btn btn-primary">
+              Learn more
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+          <div class="phone-mock">
+            <div class="phone-mock__tint"></div>
+            <div class="phone-mock__content">
+              <svg class="icon-lg" style="width:2.5rem;height:2.5rem;color:var(--brand-orange)" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                <path d="M4 22h16" />
+                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+              </svg>
+              <p class="phone-mock__title">CricRun</p>
+              <p class="phone-mock__sub">Counter</p>
+              <div class="phone-mock__stats">
+                <div class="stat-box">
+                  <p class="stat-box__label">Runs</p>
+                  <p class="stat-box__value">142</p>
+                </div>
+                <div class="stat-box">
+                  <p class="stat-box__label">Wickets</p>
+                  <p class="stat-box__value">3</p>
+                </div>
+                <div class="stat-box span-2">
+                  <p class="stat-box__label">Overs</p>
+                  <p class="stat-box__value">14.2 / 20</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Testimonials ===== -->
+      <section class="section">
+        <div class="section__head">
+          <span class="eyebrow">Trusted by clients</span>
+          <h2 class="section__title">What clients say about DevNest Tech</h2>
+        </div>
+        <div class="grid-cards cols-3">
+          <figure class="testimonial">
+            <blockquote>&ldquo;Great experience working with DevNest Tech — clean code and fast delivery.&rdquo;
+            </blockquote>
+            <figcaption>— Business owner</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>&ldquo;Highly professional Flutter development team.&rdquo;</blockquote>
+            <figcaption>— Product manager</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>&ldquo;Reliable and scalable app solutions.&rdquo;</blockquote>
+            <figcaption>— Startup founder</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===== CTA ===== -->
+      <section class="section">
+        <div class="cta-banner">
+          <h2>Have an app idea?</h2>
+          <p>Let's build something users love. Reach out and we'll get back within 24 hours.</p>
+          <a href="contact.html" class="btn">
+            Start a conversation
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="site-footer__grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="images/devnest_logo.png" alt="DevNest Tech" />
+            <div class="brand__text">
+              <span class="brand__name">dev<span class="text-gradient-brand">Nest</span> <span class="brand__tag"
+                  style="margin-left:.25rem">Tech</span></span>
+            </div>
+          </a>
+          <p>Building modern and scalable mobile applications with Flutter and Firebase.</p>
+          <p><a href="mailto:devnestlabs16@gmail.com">devnestlabs16@gmail.com</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="apps.html">Apps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="cricrun-counter-privacy.html">CricRun Privacy</a></li>
+            <li><a href="cricrun-counter-terms.html">CricRun Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div class="site-footer__bottom-inner">
+          <span id="footer-year">© 2026 DevNest Tech. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("footer-year").textContent = "© " + new Date().getFullYear() + " DevNest Tech. All rights reserved.";
+  </script>
+</body>
+
+</html>

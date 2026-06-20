@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CricRun Counter — Smart Cricket Scoring App</title>
+  <meta name="description"
+    content="CricRun Counter by DevNest Tech — easy real-time cricket scoring with a clean, minimal UI. Coming soon on Google Play." />
+  <meta name="author" content="DevNest Tech" />
+  <meta property="og:site_name" content="DevNest Tech" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CricRun Counter — Smart Cricket Scoring App" />
+  <meta property="og:description" content="Smart, real-time cricket scoring app." />
+  <meta property="og:url" content="/cricrun-counter" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="/cricrun-counter" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="page-shell">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="index.html" class="brand">
+          <img src="images/devnest_logo.png" alt="DevNest Tech" />
+
+        </a>
+        <nav class="nav-desktop">
+          <a href="index.html" data-href="/" class="nav-link">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link is-active">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link">Contact</a>
+          <a href="contact.html" class="nav-cta">Get in touch</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg class="icon-lg icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
+          <svg class="icon-lg icon-close" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div class="nav-mobile">
+        <nav class="nav-mobile__inner">
+          <a href="index.html" data-href="/" class="nav-link">Home</a>
+          <a href="about.html" data-href="/about" class="nav-link">About</a>
+          <a href="apps.html" data-href="/apps" class="nav-link">Apps</a>
+          <a href="cricrun-counter.html" data-href="/cricrun-counter" class="nav-link is-active">CricRun</a>
+          <a href="contact.html" data-href="/contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section class="hero cricrun-hero">
+        <div class="hero__bg"></div>
+        <div class="hero__inner cricrun-hero__inner">
+          <div class="cricrun-hero__grid">
+            <div>
+              <span class="badge-pill">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                  <path d="M4 22h16" />
+                  <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                  <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                </svg>
+                Available on Google Play
+              </span>
+              <h1><span class="text-gradient-brand">CricRun</span> Counter</h1>
+              <p class="lede">A smart cricket scoring app built for everyday matches. Track every ball in real time with
+                a clean, minimal UI that anyone can use.</p>
+              <div class="hero__actions">
+                <a href="https://play.google.com/store/apps/details?id=com.cricrun.counter" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-primary">View on Play Store</a>
+                <a href="contact.html" class="btn btn-secondary">Get notified</a>
+              </div>
+            </div>
+            <div class="cricrun-phone">
+              <div class="cricrun-phone__tint"></div>
+              <div class="cricrun-phone__content">
+                <p class="cricrun-phone__title">CricRun</p>
+                <div class="cricrun-phone__stats">
+                  <div class="stat-box">
+                    <p class="stat-box__label">Runs</p>
+                    <p class="stat-box__value">142</p>
+                  </div>
+                  <div class="stat-box">
+                    <p class="stat-box__label">Wickets</p>
+                    <p class="stat-box__value">3</p>
+                  </div>
+                  <div class="stat-box">
+                    <p class="stat-box__label">Overs</p>
+                    <p class="stat-box__value">14.2</p>
+                  </div>
+                  <div class="stat-box">
+                    <p class="stat-box__label">RR</p>
+                    <p class="stat-box__value">9.86</p>
+                  </div>
+                </div>
+                <div class="cricrun-phone__pad">
+                  <div class="pad-btn">1</div>
+                  <div class="pad-btn">2</div>
+                  <div class="pad-btn">3</div>
+                  <div class="pad-btn">4</div>
+                  <div class="pad-btn">6</div>
+                  <div class="pad-btn">W</div>
+                  <div class="pad-btn">WD</div>
+                  <div class="pad-btn">NB</div>
+                  <div class="pad-btn">•</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Features ===== -->
+      <section class="section">
+        <div class="section__head">
+          <span class="eyebrow">Features</span>
+          <h2 class="section__title">Everything you need to keep score</h2>
+        </div>
+        <div class="grid-cards cols-3">
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+              </svg>
+            </div>
+            <h3 class="card__title">Real-time updates</h3>
+            <p class="card__desc">Every run, wicket and over reflected instantly with no lag.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+                <path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65" />
+                <path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65" />
+              </svg>
+            </div>
+            <h3 class="card__title">Easy score tracking</h3>
+            <p class="card__desc">Tap-based scoring designed for one-handed use during matches.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <path d="M12 18h.01" />
+              </svg>
+            </div>
+            <h3 class="card__title">Clean, minimal UI</h3>
+            <p class="card__desc">No clutter — just the numbers that matter, beautifully presented.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== App Preview ===== -->
+      <section class="section">
+        <div class="section__head">
+          <span class="eyebrow">App Preview</span>
+          <h2 class="section__title">A peek inside</h2>
+        </div>
+        <div class="preview-img-wrap">
+          <img src="images/cricrun_score.jpeg" alt="CricRun Counter app preview" class="preview-img" />
+        </div>
+      </section>
+
+      <!-- ===== Legal ===== -->
+      <section class="section">
+        <div class="legal-panel">
+          <h3>Legal</h3>
+          <p>App-specific policies for CricRun Counter.</p>
+          <div class="legal-panel__links">
+            <a href="cricrun-counter-privacy.html">Privacy Policy</a>
+            <a href="cricrun-counter-terms.html">Terms &amp; Conditions</a>
+          </div>
+          <ul>
+            <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                <path d="m9 11 3 3L22 4" />
+              </svg> No personal data collected directly</li>
+            <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                <path d="m9 11 3 3L22 4" />
+              </svg> Uses Google AdMob for ads</li>
+            <li class="check-item"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                <path d="m9 11 3 3L22 4" />
+              </svg> Firebase for crash reporting &amp; analytics</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="site-footer__grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="images/devnest_logo.png" alt="DevNest Tech" />
+            <div class="brand__text">
+              <span class="brand__name">dev<span class="text-gradient-brand">Nest</span> <span class="brand__tag"
+                  style="margin-left:.25rem">Tech</span></span>
+            </div>
+          </a>
+          <p>Building modern and scalable mobile applications with Flutter and Firebase.</p>
+          <p><a href="mailto:devnestlabs16@gmail.com">devnestlabs16@gmail.com</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="apps.html">Apps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="cricrun-counter-privacy.html">CricRun Privacy</a></li>
+            <li><a href="cricrun-counter-terms.html">CricRun Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div class="site-footer__bottom-inner">
+          <span id="footer-year">© 2026 DevNest Tech. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("footer-year").textContent = "© " + new Date().getFullYear() + " DevNest Tech. All rights reserved.";
+  </script>
+</body>
+
+</html>
