@@ -17,6 +17,8 @@ devnest-static/
 ├── apps.html                      Apps list
 ├── contact.html                   Contact (mailto form)
 ├── cricrun-counter.html           CricRun Counter app page
+├── kukari-games.html              Kukari Games app page
+├── kukari-games-privacy.html      Kukari Games Privacy Policy
 ├── privacy.html                   Site Privacy Policy
 ├── terms.html                     Site Terms & Conditions
 ├── cricrun-counter-privacy.html   CricRun Counter Privacy Policy

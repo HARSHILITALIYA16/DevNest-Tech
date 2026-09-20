@@ -1665,3 +1665,39 @@ textarea {
   font-weight: 700;
   color: var(--primary-foreground);
 }
+
+/* ==========================================================================
+   Kukari Games page
+   ========================================================================== */
+.kukari-phone {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 17.5rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  border: 1px solid var(--border);
+  background-color: var(--background);
+  box-shadow: var(--shadow-card);
+}
+
+.kukari-phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.kukari-shots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.kukari-shots img {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  border-radius: 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+}
